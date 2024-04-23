@@ -6,22 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Demo for jQuery.qrcode (https://larsjung.de/jquery-qrcode/).">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>서초과학화예비군훈련대</title>
+  <title>작계훈련 TEST</title>
   <!-- QR Code Start -->
   <link href="//fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
-  <script src="web/jquery.min.js"></script>
-  <script src="web/jquery-qrcode-0.18.0.js"></script>
+  <script src="jquery.min.js"></script>
+  <script src="jquery-qrcode-0.18.0.js"></script>
   <!-- QR Code End -->
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <style>
     body {
       min-height: 100vh;
-      background: -webkit-gradient(linear, left bottom, right top, from(#92b5db), to(#1d466c));
-      background: -webkit-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
-      background: -moz-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
-      background: -o-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
-      background: linear-gradient(to top right, #92b5db 0%, #1d466c 100%);
+      background: -webkit-gradient(linear, left bottom, right top, from(#92b5db), to(#252525c));
+      background: -webkit-linear-gradient(bottom left, #92b5db 0%, #252525 100%);
+      background: -moz-linear-gradient(bottom left, #92b5db 0%, #252525 100%);
+      background: -o-linear-gradient(bottom left, #92b5db 0%, #252525 100%);
+      background: linear-gradient(to top right, #92b5db 0%, #252525 100%);
     }
 
     .input-form {
@@ -156,12 +156,12 @@
           <div class="content">
             &nbsp;&nbsp;예비군훈련 입소 간편화를 위해 시행하는 QR Pass 입니다.
             &nbsp;&nbsp;서버에 저장되지 않으며 기타 다른 용도로 사용되지 않습니다.
-            &nbsp;&nbsp;서초과학화예비군훈련대
+            &nbsp;&nbsp;동대 작계훈련 TEST
           </div>
         </div>
       </div>
       <div class="input-form col-md-12 mx-auto">
-        <h3 class="mb-3">예비군훈련 QR Pass</h3>
+        <h3 class="mb-3">동대 작계훈련 QR Pass</h3>
         <hr class="mb-3">
         <form class="validation-form" id="QRpass" novalidate>
           <div class="row">
@@ -226,140 +226,10 @@
               </div>
             </div>
           </div>
-          <hr class="mb-4">
-          <!-- 문진표 Start -->
-          <h5 class="mb-3">전자문진표 및<span style=" font: 1em/1em sans-serif ; color: blue;"> 보안서약</h5>
-          <fieldset class="mb-3"><br>
-            <fieldset class="form-group border p-3">
-              <tr>
-                <th scope="row" rowspan="2">1.</th>
-                <th scope="row"></th>
-                <td>현재 앓고 있는 만성질환이 있습니까?</td>
-              </tr>
-              <tr>
-                <th scope="row"></th>
-                <td>
-                  <div class="select">
-                    <span class="form-check">
-                      <input class="form-check-input" id="select1" type="radio" value="Y" name="quest1" required><label class="form-check-label" for="select1">예</label> &nbsp&nbsp&nbsp
-                    </span>
-                    <span class="form-check">
-                      <input class="form-check-input" id="select2" type="radio" value="N" name="quest1"><label class="form-check-label" for="select2">아니오</label>
-                    </span>
-                  </div>
-                </td>
-              </tr>
-            </fieldset>
-            <fieldset class="form-group border p-3">
-              <tr>
-                <th scope="row" rowspan="2">2.</th>
-                <th scope="row"></th>
-                <td>최근 운동 중 또는 운동 후, 갑작스런 흉통이나 호흡곤란, 실신, 어지러움 등의 증상을 경험한 적이 있습니까?</td>
-              </tr>
-              <tr>
-                <th scope="row"></th>
-                <td>
-                  <div class="select">
-                    <span class="form-check">
-                      <input class="form-check-input" id="select3" type="radio" value="Y" name="quest2" required><label class="form-check-label" for="select3">예</label> &nbsp&nbsp&nbsp
-                    </span>
-                    <span class="form-check">
-                      <input class="form-check-input" id="select4" type="radio" value="N" name="quest2"><label class="form-check-label" for="select4">아니오</label>
-                    </span>
-                  </div>
-                </td>
-              </tr>
-            </fieldset>
-            <fieldset class="form-group border p-3">
-              <tr>
-                <th scope="row" rowspan="2">3.</th>
-                <th scope="row"></th>
-                <td>의사로부터 혈압이 높거나 혈압약을 복용하라고 들은 적이 있습니까?</td>
-              </tr>
-              <tr>
-                <th scope="row"></th>
-                <td>
-                  <div class="select">
-                    <span class="form-check">
-                      <input class="form-check-input" id="select5" type="radio" value="Y" name="quest3" required><label class="form-check-label" for="select5">예</label> &nbsp&nbsp&nbsp
-                    </span>
-                    <span class="form-check">
-                      <input class="form-check-input" id="select6" type="radio" value="N" name="quest3"><label class="form-check-label" for="select6">아니오</label>
-                    </span>
-                  </div>
-                </td>
-              </tr>
-            </fieldset>
-            <fieldset class="form-group border p-3">
-              <tr>
-                <th scope="row" rowspan="2">4.</th>
-                <th scope="row"></th>
-                <td>최근 정신과적인 증상(불안, 우울, 불면 등)이 있습니까?</td>
-              </tr>
-              <tr>
-                <th scope="row"></th>
-                <td>
-                  <div class="select">
-                    <span class="form-check">
-                      <input class="form-check-input" id="select7" type="radio" value="Y" name="quest4" required><label class="form-check-label" for="select7">예</label> &nbsp&nbsp&nbsp
-                    </span>
-                    <span class="form-check">
-                      <input class="form-check-input" id="select8" type="radio" value="N" name="quest4"><label class="form-check-label" for="select8">아니오</label>
-                    </span>
-                  </div>
-                </td>
-              </tr>
-            </fieldset>
-            <fieldset class="form-group border p-3">
-              <tr>
-                <th scope="row" rowspan="2">5.</th>
-                <th scope="row"></th>
-                <td>오늘 몸 상태가 예비군훈련에 지장을 줍니까? (훈련이 제한되는 건강이상)</td>
-              </tr>
-              <tr>
-                <th scope="row"></th>
-                <td>
-                  <div class="select">
-                    <span class="form-check">
-                      <input class="form-check-input" id="select9" type="radio" value="Y" name="quest5" required><label class="form-check-label" for="select9">예</label> &nbsp&nbsp&nbsp
-                    </span>
-                    <span class="form-check">
-                      <input class="form-check-input" id="select10" type="radio" value="N" name="quest5"><label class="form-check-label" for="select10">아니오</label>
-                    </span>
-                  </div>
-                </td>
-              </tr>
-            </fieldset>
-            <fieldset class="form-group border p-3">
-              <tr>
-                <th scope="row" rowspan="2"></th>
-                <th scope="row"></th>
-                <td>
-                  <span style="font: 1.05em/1em sans-serif; color: blue;">
-                    6. 개인소유 정보통신장비는 군사보호구역 출입에 따라 '국방부모바일보안앱'을 설치해야하며, 부대 내 사진촬영은 일체 금지합니다.
-                  </span><br>
-                  <span style="font: 1.04em/1em sans-serif; font-weight:bold; color: red;">무단사용 시 퇴소조치</span>
-                  <span style="font: 1.05em/1em sans-serif; color: blue;">되며 어떠한 이의도 제기하지 않을 것을 동의합니다.</span>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row"></th>
-                <td>
-                  <div class="select">
-                    <span class="form-check">
-                      <input type="radio" name="q6" id="q6Check1" value="A" class="form-check-input" required> <label class="form-check-label" for="q6Check1">동의</label> &nbsp&nbsp&nbsp
-                    </span>
-                    <span class="form-check">
-                      <input type="radio" name="q6" id="q6Check2" value="NA" class="form-check-input"> <label class="form-check-label" for="q6Check2">동의하지 않음</label>
-                    </span>
-                  </div>
-                </td>
-              </tr>
-            </fieldset>
-          </fieldset>
+
           <hr class="mb-4">
           <span style=" font: 0.85em/1em sans-serif ; color: #797979;">
-            상기 문진결과와 계좌는 예비군훈련 통제 및 행정처리에만 사용되며, 훈련 종료 후 파기 됩니다. 상기명 본인은 예비군 전자문진 결과 및 위의 개인정보 사용에 대하여 동의합니다.
+            상기 문진결과와 계좌는 예비군훈련 통제 및 행정처리에만 사용되며, 훈련 종료 후 파기 됩니다. 상기명 본인은 위의 개인정보 사용에 대하여 동의합니다.
           </span>
           <div class="custom-control custom-checkbox"><br>
             <input type="checkbox" class="custom-control-input" id="aggrement" required>
@@ -394,8 +264,8 @@
   </div>
   <footer class="my-3 text-center text-small">
     <p class="mb-1"><br><span style=" font: 1.1em sans-serif; font-weight:bold;"> &copy; 수도방위사령부 제52보병사단</span></p>
-    <p class="mb-1"><span style=" font: 1.03em sans-serif; font-weight:bold;">서초과학화예비군훈련대</span></p>
-    <p class="mb-1"><span style=" font: 1em/0.1em sans-serif;">v1.3.02</span></p><br>
+    <p class="mb-1"><span style=" font: 1.03em sans-serif; font-weight:bold;">작계훈련 테스트</span></p>
+    <p class="mb-1"><span style=" font: 1em/0.1em sans-serif;">v3.0.01</span></p><br>
   </footer>
   <script>
     function handleOnInput_birth(el) {
@@ -543,64 +413,8 @@
       return res;
     }
 
-    
-    function check_quest(){
-
-      var prob = "건강이상"
-      var noprob = "정상"
-
-      if ($('input[name="quest1"]:checked').val() == "Y") {
-        return prob;
-      }
-      else if ($('input[name="quest2"]:checked').val() == "Y") {
-        return prob;
-      }
-      else if ($('input[name="quest3"]:checked').val() == "Y") {
-        return prob;
-      }
-      else if ($('input[name="quest4"]:checked').val() == "Y") {
-        return prob;
-      }
-      else if ($('input[name="quest5"]:checked').val() == "Y") {
-        return prob;
-      }
-      else {
-        return noprob;
-      }
-    }
 
 
-    function check_agree() {
-      var agree = "동의"
-      var notagree = "비동의"
-
-      if ($("input[name='q6']:checked").val() == "NA") {
-        return notagree;
-      }
-
-      else {
-        return agree;
-      }
-    }
-
-    // MEMO: 엑셀 버전 메모
-    // phone_number.value + '\t'
-    // + "'" + bank_number.value + '\t'
-    // + translateKorToEng(bank_name.value) + '\t' + '\t' //은행코드자리 넘김 추가
-    // + translateKorToEng(lunch_menu.value) + '\t'
-    // + translateKorToEng($("input[name='quest1']:checked").val()) + '\t'
-    // + translateKorToEng($("input[name='quest2']:checked").val()) + '\t'
-    // + translateKorToEng($("input[name='quest3']:checked").val()) + '\t'
-    // + translateKorToEng($("input[name='quest4']:checked").val()) + '\t'
-    // + translateKorToEng($("input[name='quest5']:checked").val()) + '\t'
-    // + translateKorToEng($("input[name='q6']:checked").val()) + '\t',
-
-    // MEMO: 과학화버전 메모
-    // translateKorToEng(bank_name.value) + '\t'
-    // + bank_number.value + '\t'
-    // + translateKorToEng(check_quest()) + '/'
-    // + translateKorToEng(check_agree()) + '/'
-    // + phone_number.value,
 
     function createQrCode() {
       var user_name = document.getElementById("in_name");
@@ -618,8 +432,6 @@
               "계좌번호 : "+ bank_number.value +"\n"+
               "은행명 : "+ bank_name.value +"\n"+
               "도시락 : "+ lunch_menu.value +"\n"+
-              "문진결과 : "+ check_quest() +"\n"+
-              "보안서약 : "+ check_agree() +"\n"+
               "입력한 내용이 맞습니까?") == true
       ) {
         $(function make() {
@@ -635,16 +447,12 @@
             fill: '#000000',
             background: 'white',
             text:
-                phone_number.value + '\t'
+                + user_name.value
+                + user_birth.value
+                + phone_number.value + '\t'
                 + "'" + bank_number.value + '\t'
-                + translateKorToEng(bank_name.value) + '\t' + '\t' //은행코드자리 넘김 추가
-                + translateKorToEng(lunch_menu.value) + '\t'
-                + translateKorToEng($("input[name='quest1']:checked").val()) + '\t'
-                + translateKorToEng($("input[name='quest2']:checked").val()) + '\t'
-                + translateKorToEng($("input[name='quest3']:checked").val()) + '\t'
-                + translateKorToEng($("input[name='quest4']:checked").val()) + '\t'
-                + translateKorToEng($("input[name='quest5']:checked").val()) + '\t'
-                + translateKorToEng($("input[name='q6']:checked").val()) + '\t',
+                + translateKorToEng(bank_name.value) + '\t'
+                + translateKorToEng(lunch_menu.value) + '\t',
             radius: 0,
             quiet: 10,
             mode: 4,
@@ -656,7 +464,7 @@
             fontcolor: '#000',
             image: null
           }
-          document.body.style.background = "#1abc9c";
+          document.body.style.background = "#14588c";
           // Notification alert
           alert("생성된 QR코드를 확인하세요. \n * 정확한 인식을 위해 휴대폰 밝기를 올려주세요.");
           // Clear QR code container
