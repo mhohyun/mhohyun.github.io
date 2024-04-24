@@ -212,20 +212,6 @@
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-8 mb-3">
-              <label for="menu">도시락 선택<span style=" font: 0.85em/1em sans-serif ; color: #797979;">&nbsp;&nbsp;</span></label>
-              <select class="custom-select d-block w-100" id="menu" required>
-                <option value="">도시락 선택</option>
-                <option value="A">도시락 A</option>
-                <option value="B">도시락 B</option>
-                <option value="N">미희망</option>
-              </select>
-              <div class="invalid-feedback">
-                도시락을 선택해주세요.
-              </div>
-            </div>
-          </div>
 
           <hr class="mb-4">
           <span style=" font: 0.85em/1em sans-serif ; color: #797979;">
@@ -451,8 +437,7 @@
                 + user_birth.value + '\t'
                 + "'" + phone_number.value + '\t'
                 + "'" + bank_number.value + '\t'
-                + translateKorToEng(bank_name.value) + '\t'
-                + translateKorToEng(lunch_menu.value) + '\t',
+                + translateKorToEng(bank_name.value) + '\t',
             radius: 0,
             quiet: 10,
             mode: 4,
